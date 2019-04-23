@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+.row{
+	margin-top: 150px;
+}
+
+.row .column {
+  padding: 0 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #1E1D1C;
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #FFFFFF;
+  margin: auto;
+  padding: 0;
+  width: 94%;
+  max-width: 1200px;
+}
+
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.close:hover{
+  color: #ed3d3d;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;}
+
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: #1E1E1E;
+  color: #F6333C;
+}
+
+.Cap-Text p{display: inline;}
+.Cap-Text span{float:right;font-size: 32px; color: white;}
+
+
+img {
+  margin-bottom: -4px;
+  width: 100%;
+}
+
+.Cap-Text {
+  text-align: center;
+  background-color: black;
+  padding: 2px;
+  font-size: 32px;
+  color: #F6333C;
+}
+
+
+
+.small_img {
+  opacity: 0.4;
+}
+.cube:hover{
+	transform: scale(1.5);
+	color:#dc8be5;
+}
+
+.active,
+.small_img:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+  width: 100%;
+
+  border-radius: 9px; 
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0);
+  transform: scale(1.5);
+}
